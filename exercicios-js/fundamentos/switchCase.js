@@ -15,3 +15,4 @@ const imprimirResultado = function(nota){
 
 imprimirResultado(10)
 imprimirResultado('a')
+imprimirResultado(4)
