@@ -25,3 +25,5 @@ const notas = [6.7, 7.4,8.3,9.1]
 for (let i = 0; i < notas.length; i++){
     console.log(`i = ${notas[i]}`)
 }
+
+
