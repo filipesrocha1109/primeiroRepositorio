@@ -21,3 +21,14 @@ console.log(obj3)
 
 const obj4 = {[nomeAttr]: valorAttr}
 console.log(obj4)
+
+
+const obj5 = {
+    funcao1: function(){  // velha
+        //...
+    },
+    funcao2(){  // novo
+        //..
+    }
+}
+
