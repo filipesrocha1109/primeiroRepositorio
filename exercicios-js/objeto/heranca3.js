@@ -29,4 +29,3 @@ for(let key in filha2){
     filha2.hasOwnProperty(key) ?  // verifica a propriedade que tem de herança
          console.log(key) : console.log(`por herança ${key}`)
 }
-
