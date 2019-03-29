@@ -1,1 +1,1 @@
-s preco: '+resultado1) 
+a))
