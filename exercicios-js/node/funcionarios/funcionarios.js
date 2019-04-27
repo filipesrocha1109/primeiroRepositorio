@@ -18,5 +18,6 @@ axios.get(url).then(Response => {
         .reduce(menorSalario)
     
     console.log(func)
+    console.log(funcionarios)
 })
 
