@@ -1,6 +1,6 @@
-function falarDepoisDe(segundos, frase){
-    return new Promise((resolve, reject) =>{
-        setTimeout(()=>{
+function falarDepoisDe(segundos, frase) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
             resolve(frase)
         }, segundos * 1000)
     })
@@ -9,3 +9,5 @@ function falarDepoisDe(segundos, frase){
 falarDepoisDe(3, 'que legal!')
     .then(frase => frase.concat('?!?'))
     .then(outrafrase => console.log(outrafrase))
+    .catch(e => console.log('error'))
+
